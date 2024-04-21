@@ -1,3 +1,6 @@
 
 import os
-os.system("ls")
+import subprocess
+# os.system("ls")
+subprocess.run(["ls"])
+subprocess.run(["ls","-l"])
